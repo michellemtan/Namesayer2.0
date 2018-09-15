@@ -50,6 +50,7 @@ Namesayer allows the user to delete any creations they do not wish to keep. This
 Note that any deletions cannot be undone.
 
 -Other-
+
 Please note that only .mp4 files will be included in the list of creations as these are the only compatible creation files. Do not add any other unknown files to the Creations folder as the application has been optimised to only handle .mp4 files in the Creation format.
 
 Any questions regarding the Namesayer application or how to set it up, can be forwarded to mtan264@aucklanduni.ac.nz
