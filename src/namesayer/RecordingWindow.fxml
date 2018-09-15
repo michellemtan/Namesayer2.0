@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="namesayer.RecordingController">
+   <children>
+      <TitledPane alignment="CENTER" animated="false" collapsible="false" contentDisplay="TEXT_ONLY" expanded="false" graphicTextGap="0.0" prefHeight="200.0" prefWidth="300.0" text="Namesayer" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="0.0" prefWidth="298.0" />
+        </content>
+      </TitledPane>
+      <GridPane layoutY="25.0" prefHeight="175.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="78.0" minHeight="10.0" prefHeight="76.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="94.0000063578288" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="58.66666666666667" minHeight="10.0" prefHeight="58.66666666666667" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextFlow prefHeight="31.0" prefWidth="300.0" textAlignment="CENTER" GridPane.rowIndex="1">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Recording now for 5 seconds..." wrappingWidth="198.64453125" />
+               </children>
+            </TextFlow>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
